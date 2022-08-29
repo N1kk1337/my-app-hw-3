@@ -8,12 +8,7 @@ import classes from "./RecipeDetails.module.scss";
 
 const RecipeDetails = () => {
   const [item, setItem] = useState<any>({});
-  ////https://api.spoonacular.com/recipes/complexSearch?apiKey=7d26c9080c674f54b079f35bce1a99a3&addRecipeInformation=true&addRecipeNutrition=true
 
-  //https://api.spoonacular.com/recipes/716426/information?apiKey=7d26c9080c674f54b079f35bce1a99a3"
-  //"https://api.spoonacular.com/recipes/" +
-  // location.key +
-  // "/information?apiKey=7d26c9080c674f54b079f35bce1a99a3",
   const location = useLocation();
   //console.log(location);
   useEffect(() => {
@@ -29,7 +24,7 @@ const RecipeDetails = () => {
       setItem(result.data);
     };
     fetch();
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div className={classes.container}>
