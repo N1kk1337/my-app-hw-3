@@ -1,0 +1,85 @@
+.container {
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+}
+
+.img {
+  width: auto;
+  height: 442px;
+}
+
+.bot_container {
+  position: relative;
+  box-sizing: border-box;
+  width: 376px;
+  height: 457px;
+  top: -84px;
+  background: #ffffff;
+  border-radius: 7px;
+}
+.title {
+  width: 296px;
+  height: 70px;
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 131.02%;
+  /* or 35px */
+
+  color: #09051c;
+}
+.thething {
+  position: relative;
+  width: 58px;
+  height: 5px;
+  margin-top: 102px;
+  margin-left: 160px;
+  margin-bottom: 24px;
+  background: #ffcbcb;
+  border-radius: 12px;
+}
+.rating_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+.rating_text {
+  width: 68px;
+  height: 19px;
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+
+  /* second */
+
+  color: #3b3b3b;
+
+  mix-blend-mode: normal;
+  opacity: 0.3;
+
+  /* Inside auto layout */
+
+  // flex: none;
+  // order: 1;
+  // flex-grow: 0;
+}
+.ratings_container {
+  display: flex;
+  justify-content: space-around;
+}
+.small_thing {
+}
+.btn {
+}
+.instructions {
+}

@@ -1,0 +1,73 @@
+.placeholder_recipes {
+  width: 600px;
+  margin: 50px auto;
+}
+.search {
+  //   position: absolute;
+  width: 311px;
+  height: 36px;
+  left: 32px;
+  top: 24px;
+  //margin-left: 32px;
+  //margin-right: 32px;
+  margin-bottom: 16px;
+  //background: url(./heart.png) no-repeat scroll 7px 7px;
+  padding-left: 32px;
+
+  /* linear 2 */
+  border: none;
+  background: linear-gradient(98.81deg, #fff0f0 -0.82%, #ffdfdf 101.53%);
+  border-radius: 7px;
+}
+
+.pick_bar {
+  position: absolute;
+  width: 176px;
+  height: 36px;
+  left: 166px;
+  top: 76px;
+
+  /* linear 2 */
+
+  background: linear-gradient(98.81deg, #fff0f0 -0.82%, #ffdfdf 101.53%);
+  mix-blend-mode: normal;
+  border-radius: 7px;
+}
+
+.recipes {
+  /* Recipes */
+  display: flex;
+  //flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  //align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  box-sizing: border-box;
+  gap: 15px;
+}
+.header {
+  // margin-top: 24px;
+  // margin-left: 32px;
+  // margin-right: 32px;
+  // margin-bottom: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  //align-items: center;
+}
+.container {
+  /* Recipes */
+  padding-top: 24px;
+  width: 375px;
+  height: 785px;
+  display: flex;
+  //flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  box-sizing: border-box;
+  gap: 15px;
+}

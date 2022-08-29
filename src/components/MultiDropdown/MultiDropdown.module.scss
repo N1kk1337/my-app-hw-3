@@ -1,0 +1,19 @@
+.input_btn {
+  width: 176px;
+  height: 36px;
+
+  text-align: left;
+  padding-left: 19px;
+  //margin-right: 32px;
+
+  /* linear 2 */
+
+  background: linear-gradient(98.81deg, #fff0f0 -0.82%, #ffdfdf 101.53%);
+  mix-blend-mode: normal;
+  border-radius: 7px;
+  border: none;
+}
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
